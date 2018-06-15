@@ -7,4 +7,4 @@ A personal work with SQL databases write in GO.
 • the driver from <b>ziutek</b> can be used with MySQl 5.0 but only in <i>native</i> form <code>mysql.New("tcp", "", "HOST", "USER", "PASSWORD", "DATABASE")</code> available within the package github.com/ziutek/mymysql/mysql.
 
 # Final conclusion
-For this purpose #Java# seams to be a better choise.
+For this purpose <b>Java</b> seams to be a better choise.
