@@ -7,7 +7,7 @@ import _ "github.com/go-sql-driver/mysql"
 func main() {
     var nrC int
     fmt.Println("Program de transfer a datelor din SIMEC, realizat în GO")
-    db, err := sql.Open("mysql", "eugen:quit;#427@(192.168.1.9)/Evidenta")
+    db, err := sql.Open("mysql", "user:password@(192.168.1.9)/Evidenta")
     if err != nil {
         fmt.Printf("Eroare de conectare: %v", err); fmt.Println()
     } else {
