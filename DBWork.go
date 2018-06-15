@@ -30,3 +30,5 @@ func main() {
         fmt.Printf("Eroare de execuție: %v", err); fmt.Println()
     default:
         fmt.Println("Număr de facturi emise:", nrC)
+    }
+}
